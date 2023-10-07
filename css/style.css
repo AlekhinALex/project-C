@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding:0;
+    background: darkslategray;
+}
+@font-face {
+    font-family: railway-c;
+    src: url(../fonts/Orbitron-VariableFont_wght.ttf);
+}
+h1{
+    font-size: 70px;
+    color:antiquewhite;
+    font-family: railway-c;
+}
+.main-header{
+    text-align: center;
+    height: 100vh;
+   
+}
+.main-header > div{
+    margin-top: 13vh;
+    margin-left:13vw;
+    vertical-align: middle;
+    display: inline-block;
+}
+.main-tittle{
+vertical-align: middle;
+}
+.container{
+    height: 100vh;
+}
+.article-tittle{
+    color:blanchedalmond;
+    font-size: 50px;
+    font-family:railway-c;
+}
+.line{
+    margin: 0 100px 0 100px;
+    height: 10px;
+    border-radius: 1px;
+    background: #000;
+    width:30vw;
+}
+.otdel{
+    align-items: center;
+}
+.otdel > *{
+    vertical-align: middle;
+    display: inline-block;
+}
+.info > *{
+    width: 50vw;
+    display: inline-block;
+}
+.info{
+    align-items: center;
+    margin:30px 10vw 0 10vw;
+}
+.bio1,.bio2{
+    color:aliceblue;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+.bio1{
+    
+    width: 600px;
+}
+.bio2{
+    padding-left:100px;
+    text-align: justify;
+    width: 1000px;
+}
+
